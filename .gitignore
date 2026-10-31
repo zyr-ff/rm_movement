@@ -1,0 +1,14 @@
+# ===== 编译产物（含误放的 74MB 视频、onnxruntime.dll）=====
+code/build/
+
+# ===== 视频等大文件（不进 git，GitHub 单文件上限 100MB）=====
+*.avi
+*.mp4
+
+# ===== Word 临时锁文件（~$ 开头）=====
+~$*
+
+# ===== 操作系统 / 编辑器垃圾文件 =====
+Thumbs.db
+ehthumbs.db
+.DS_Store
